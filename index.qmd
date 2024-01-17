@@ -128,8 +128,6 @@ ggplot(data=dat, aes(x=X+Y, y=S))+
 
 ### Analisis masalah
 
-Hasil pengaruh nilai ekspor terhadap PDRB Kota Riau  diestimasi menggunakan regresi univariat. Hasilnya ditunjukkan sebagai berikut:
-
 ```{r}
 dat<-read_excel("data.xlsx")
 reg<-lm(S~X+Y,data=dat)
